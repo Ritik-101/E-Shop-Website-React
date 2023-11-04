@@ -1,0 +1,255 @@
+
+> vite-project@0.0.0 dev
+> nx exec -- vite
+
+Port 5173 is in use, trying another one...
+
+  [32m[1mVITE[22m v4.4.11[39m  [2mready in [0m[1m303[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh[22m[2m to show help[22m
+[2m3:06:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:10:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:12:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:13:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:13:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:14:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:17:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:17:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:23:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/filter/Filter.jsx, /src/index.css[22m
+[2m3:32:51 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:35:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:43:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:49:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:49:27 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:50:03 pm[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mreact-router[32m[39m
+[2m3:50:03 pm[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:50:09 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:51:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:51:42 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:53:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:53:06 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:54:58 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/redux/cartSlice.jsx[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:54:59 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:55:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:55:11 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:55:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:55:36 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  23 |  import { doc, getDoc } from "firebase/firestore";
+  24 |  import { toast } from "react-toastify";
+  25 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  26 |  function ProductInfo() {
+  27 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 10)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:55:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:55:54 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:57:13 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css, /src/pages/registration/Login.jsx, /src/pages/registration/Signup.jsx[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:57:14 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:57:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m3:57:36 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m4:02:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/filter/Filter.jsx, /src/index.css[22m
+Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?
+[2m4:02:41 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\productInfo\ProductInfo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/productInfo/ProductInfo.jsx[39m:9:23
+[33m  24 |  import { toast } from "react-toastify";
+  25 |  import { addToCart } from "../../redux/cartSlice";
+  26 |  import { fireDB } from "../../fireabase/FirebaseConfig";
+     |                          ^
+  27 |  function ProductInfo() {
+  28 |    _s();[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 11)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+^C^C

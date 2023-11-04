@@ -1,0 +1,50 @@
+
+> vite-project@0.0.0 dev
+> nx exec -- vite
+
+
+  [32m[1mVITE[22m v4.4.11[39m  [2mready in [0m[1m16361[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh[22m[2m to show help[22m
+[2m2:07:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m2:10:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m2:11:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:14:30 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/navbar/Navbar.jsx, /src/index.css[22m
+[2m2:14:57 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:16:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:17:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:19:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:25:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:25:01 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/App.jsx[22m Could not Fast Refresh (export removed)
+[2m2:25:01 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m2:27:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:29:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:31:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:33:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:33:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m2:36:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Order/Order.jsx, /src/index.css[22m
+[2m3:06:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:10:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:12:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:13:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:13:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:14:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/admin/dashboard/DashboardTab.jsx, /src/index.css[22m
+[2m3:17:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:17:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m3:23:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/filter/Filter.jsx, /src/index.css[22m
+[2m3:32:51 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:35:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:43:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/productCard/ProductCard.jsx, /src/index.css[22m
+[2m3:49:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:51:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:53:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:54:58 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/redux/cartSlice.jsx[22m
+[2m3:55:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:55:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:55:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m3:57:13 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Login.jsx, /src/index.css, /src/context/data/myState.jsx, /src/pages/registration/Signup.jsx[22m
+[2m3:57:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/productInfo/ProductInfo.jsx, /src/index.css[22m
+[2m4:02:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/filter/Filter.jsx, /src/index.css[22m
+^C^C

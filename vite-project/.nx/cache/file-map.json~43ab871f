@@ -1,0 +1,243 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.2",
+  "deps": {
+    "@headlessui/react": "^1.7.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.17.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "nx": "17.0.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "vite-project": [
+        {
+          "file": ".eslintrc.cjs",
+          "hash": "2882042679431938213"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": ".nx/cache/d/daemon.log",
+          "hash": "8308944720548018185"
+        },
+        {
+          "file": ".nx/cache/d/server-process.json",
+          "hash": "2412856041168759876"
+        },
+        {
+          "file": ".nx/cache/file-map.json",
+          "hash": "16739528048387065254"
+        },
+        {
+          "file": ".nx/cache/lockfile.hash",
+          "hash": "12725198704332285676"
+        },
+        {
+          "file": ".nx/cache/parsed-lock-file.json",
+          "hash": "9250614140913267609"
+        },
+        {
+          "file": ".nx/cache/project-graph.json",
+          "hash": "12121775014378231341"
+        },
+        {
+          "file": "README.md",
+          "hash": "17496383698429813037"
+        },
+        {
+          "file": "index.html",
+          "hash": "7575831410758623410"
+        },
+        {
+          "file": "nx.json",
+          "hash": "6852749301580033737"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "15857780877624095944"
+        },
+        {
+          "file": "package.json",
+          "hash": "15194701527442928952",
+          "deps": [
+            "npm:@headlessui/react",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:react-router-dom",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:nx",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "1121830044826443979"
+        },
+        {
+          "file": "public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "src/App.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/App.jsx",
+          "hash": "4204704603852534116"
+        },
+        {
+          "file": "src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "src/components/filter/Filter.jsx",
+          "hash": "151421141942208400"
+        },
+        {
+          "file": "src/components/footer/Footer.jsx",
+          "hash": "12938759712949282494"
+        },
+        {
+          "file": "src/components/herosection/HeroSection.jsx",
+          "hash": "6374082375000766595"
+        },
+        {
+          "file": "src/components/layout/Layout.jsx",
+          "hash": "11354383473371705280"
+        },
+        {
+          "file": "src/components/modal/Modal.jsx",
+          "hash": "392368472148790618"
+        },
+        {
+          "file": "src/components/navbar/Navbar.jsx",
+          "hash": "540204214452256641"
+        },
+        {
+          "file": "src/components/productCard/ProductCard.jsx",
+          "hash": "6184009195362147226"
+        },
+        {
+          "file": "src/components/testimonial/Testimonial.jsx",
+          "hash": "14941726966637722431"
+        },
+        {
+          "file": "src/components/track/Track.jsx",
+          "hash": "13598906113836033466"
+        },
+        {
+          "file": "src/context/data/myContext.jsx",
+          "hash": "14130118977531945153"
+        },
+        {
+          "file": "src/context/data/myState.jsx",
+          "hash": "1007182022499438405"
+        },
+        {
+          "file": "src/index.css",
+          "hash": "2172668849966456987"
+        },
+        {
+          "file": "src/main.jsx",
+          "hash": "13625659006721401740"
+        },
+        {
+          "file": "src/pages/Order/Order.jsx",
+          "hash": "17492829697276988605"
+        },
+        {
+          "file": "src/pages/admin/dashboard/Dashboard.jsx",
+          "hash": "2884854354861274094"
+        },
+        {
+          "file": "src/pages/allproducts/AllProducts.jsx",
+          "hash": "13933725816548232053"
+        },
+        {
+          "file": "src/pages/cart/Cart.jsx",
+          "hash": "3665664579623820036"
+        },
+        {
+          "file": "src/pages/home/Home.jsx",
+          "hash": "3008128854963800728"
+        },
+        {
+          "file": "src/pages/nopage/NoPage.jsx",
+          "hash": "16805423453729600147"
+        },
+        {
+          "file": "src/pages/productInfo/ProductInfo.jsx",
+          "hash": "12252780948936964354"
+        },
+        {
+          "file": "src/pages/registration/Login.jsx",
+          "hash": "7613535931759390202"
+        },
+        {
+          "file": "src/pages/registration/Signup.jsx",
+          "hash": "8318570102794087360"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "14782148506420561591"
+        },
+        {
+          "file": "vite.config.js",
+          "hash": "7008402861428644331"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix1/index.js",
+          "hash": "15048939128412700699"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix1/lib/daemon/process-run-end.js",
+          "hash": "17488724639353388161"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix1/lib/heartbeat/heartbeat-process.js",
+          "hash": "8101618490335397045"
+        },
+        {
+          "file": ".nx/cache/cloud/verify.lock",
+          "hash": "8964107020391181973"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/4426091279382128579",
+          "hash": "3997956163470687028"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "11494753271969256807"
+        }
+      ]
+    }
+  }
+}

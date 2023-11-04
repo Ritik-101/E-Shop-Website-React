@@ -1,0 +1,55 @@
+
+> vite-project@0.0.0 dev
+> nx exec -- vite
+
+
+  [32m[1mVITE[22m v4.4.11[39m  [2mready in [0m[1m197818[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh[22m[2m to show help[22m
+[2m2:07:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m2:07:15 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/data/myState.jsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m2:07:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:07:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/data/myState.jsx, /src/index.css[22m
+[2m2:07:49 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/data/myState.jsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m2:07:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m2:09:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m2:13:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:02:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:06:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:11:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:12:58 pm[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mreact-toastify[32m[39m
+[2m3:12:58 pm[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m3:13:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m3:14:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m3:18:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:18:16 pm[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mfirebase/auth, firebase/app, firebase/firestore[32m[39m
+[2m3:18:16 pm[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m3:27:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:28:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:32:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:32:42 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../fireabase/FirebaseConfig" from "src\pages\registration\Signup.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/ritik/Desktop/E-commerce Website/vite-project/src/pages/registration/Signup.jsx[39m:6:29
+[33m  21 |  import { toast } from "react-toastify";
+  22 |  import { createUserWithEmailAndPassword } from "firebase/auth";
+  23 |  import { auth, fireDB } from "../../fireabase/FirebaseConfig";
+     |                                ^
+  24 |  import { Timestamp, addDoc, collection } from "firebase/firestore";
+  25 |  import Loader from "../../components/loader/Loader";[39m
+      at formatError (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44055:46)
+      at TransformContext.error (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44051:19)
+      at normalizeUrl (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41837:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41991:47
+      at async Promise.all (index 8)
+      at async TransformContext.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:41907:13)
+      at async Object.transform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:44345:30)
+      at async loadAndTransform (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:55015:29)
+      at async viteTransformMiddleware (file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/node_modules/vite/dist/node/chunks/dep-2b82a1ce.js:64417:32)
+[2m3:34:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m3:36:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:42:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+[2m3:43:51 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/registration/Signup.jsx, /src/index.css[22m
+^C^C^C

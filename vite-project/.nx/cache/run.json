@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run vite-project:\"dev\"",
+    "startTime": "2023-11-04T09:07:48.823Z",
+    "endTime": "2023-11-04T10:33:23.735Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "vite-project:dev",
+      "target": "dev",
+      "projectName": "vite-project",
+      "hash": "17886823001183176536",
+      "startTime": "2023-11-04T09:07:48.832Z",
+      "endTime": "2023-11-04T10:33:23.734Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.2",
+  "deps": {
+    "@headlessui/react": "^1.7.17",
+    "@reduxjs/toolkit": "^1.9.7",
+    "firebase": "^10.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0",
+    "react-toastify": "^9.1.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "nx": "17.0.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "vite-project": [
+        {
+          "file": ".eslintrc.cjs",
+          "hash": "2882042679431938213"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/index.js",
+          "hash": "11105368040345262562"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/daemon/process-run-end.js",
+          "hash": "17993887837223109277"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/heartbeat/heartbeat-process.js",
+          "hash": "8101618490335397045"
+        },
+        {
+          "file": ".nx/cache/cloud/verify.lock",
+          "hash": "13608955264628189157"
+        },
+        {
+          "file": ".nx/cache/d/daemon.log",
+          "hash": "18093748344519115477"
+        },
+        {
+          "file": ".nx/cache/d/server-process.json",
+          "hash": "12195774990378277133"
+        },
+        {
+          "file": ".nx/cache/file-map.json",
+          "hash": "5668341506911126031"
+        },
+        {
+          "file": ".nx/cache/file-map.json~068fc010",
+          "hash": "17588883115715766114"
+        },
+        {
+          "file": ".nx/cache/file-map.json~08a86bb5",
+          "hash": "5584184427838591747"
+        },
+        {
+          "file": ".nx/cache/file-map.json~142bbb0f",
+          "hash": "18334118746976439746"
+        },
+        {
+          "file": ".nx/cache/file-map.json~28d7fd20",
+          "hash": "5328003160402849410"
+        },
+        {
+          "file": ".nx/cache/file-map.json~43ab871f",
+          "hash": "14342725845697673253"
+        },
+        {
+          "file": ".nx/cache/file-map.json~54c0ae97",
+          "hash": "5826869704807788242"
+        },
+        {
+          "file": ".nx/cache/file-map.json~57521e51",
+          "hash": "3911399079759681252"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5d585bb3",
+          "hash": "17483465626919140135"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6105f521",
+          "hash": "307067122320732787"
+        },
+        {
+          "file": ".nx/cache/file-map.json~79debac5",
+          "hash": "3911399079759681252"
+        },
+        {
+          "file": ".nx/cache/file-map.json~99f32593",
+          "hash": "1946291092689859413"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a6dca86c",
+          "hash": "17891551376438988959"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b5200860",
+          "hash": "13894616573819478121"
+        },
+        {
+          "file": ".nx/cache/file-map.json~bf79f201",
+          "hash": "9008207204813361913"
+        },
+        {
+          "file": ".nx/cache/lockfile.hash",
+          "hash": "5829733139618990546"
+        },
+        {
+          "file": ".nx/cache/parsed-lock-file.json",
+          "hash": "9174155026949406493"
+        },
+        {
+          "file": ".nx/cache/project-graph.json",
+          "hash": "12770666747975323458"
+        },
+        {
+          "file": ".nx/cache/project-graph.json~17b9330d",
+          "hash": "11869140382491882332"
+        },
+        {
+          "file": ".nx/cache/project-graph.json~e2ed62a6",
+          "hash": "12976474203053362810"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "10194703592859770559"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/2710705713934905325",
+          "hash": "17054359834784271210"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/4426091279382128579",
+          "hash": "3997956163470687028"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/7592041082728610040",
+          "hash": "13637957081625194507"
+        },
+        {
+          "file": "README.md",
+          "hash": "17496383698429813037"
+        },
+        {
+          "file": "index.html",
+          "hash": "7575831410758623410"
+        },
+        {
+          "file": "nx.json",
+          "hash": "6852749301580033737"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2554749836819988416"
+        },
+        {
+          "file": "package.json",
+          "hash": "14910517467366097594",
+          "deps": [
+            "npm:@headlessui/react",
+            "npm:@reduxjs/toolkit",
+            "npm:firebase",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:react-redux",
+            "npm:react-router-dom",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:nx",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "1121830044826443979"
+        },
+        {
+          "file": "public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "src/App.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/App.jsx",
+          "hash": "10016732564836255715"
+        },
+        {
+          "file": "src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "src/components/filter/Filter.jsx",
+          "hash": "151421141942208400"
+        },
+        {
+          "file": "src/components/footer/Footer.jsx",
+          "hash": "12938759712949282494"
+        },
+        {
+          "file": "src/components/herosection/HeroSection.jsx",
+          "hash": "6374082375000766595"
+        },
+        {
+          "file": "src/components/layout/Layout.jsx",
+          "hash": "11354383473371705280"
+        },
+        {
+          "file": "src/components/loader/Loader.jsx",
+          "hash": "9456926757640924371"
+        },
+        {
+          "file": "src/components/modal/Modal.jsx",
+          "hash": "392368472148790618"
+        },
+        {
+          "file": "src/components/navbar/Navbar.jsx",
+          "hash": "540204214452256641"
+        },
+        {
+          "file": "src/components/productCard/ProductCard.jsx",
+          "hash": "6184009195362147226"
+        },
+        {
+          "file": "src/components/testimonial/Testimonial.jsx",
+          "hash": "14941726966637722431"
+        },
+        {
+          "file": "src/components/track/Track.jsx",
+          "hash": "13598906113836033466"
+        },
+        {
+          "file": "src/context/data/myContext.jsx",
+          "hash": "14130118977531945153"
+        },
+        {
+          "file": "src/context/data/myState.jsx",
+          "hash": "12329912402370663274"
+        },
+        {
+          "file": "src/firebase/FirebaseConfig.jsx",
+          "hash": "11500297490039219330"
+        },
+        {
+          "file": "src/index.css",
+          "hash": "2172668849966456987"
+        },
+        {
+          "file": "src/main.jsx",
+          "hash": "7875787779846712239"
+        },
+        {
+          "file": "src/pages/Order/Order.jsx",
+          "hash": "17492829697276988605"
+        },
+        {
+          "file": "src/pages/admin/dashboard/Dashboard.jsx",
+          "hash": "7570724345840005144"
+        },
+        {
+          "file": "src/pages/admin/dashboard/DashboardTab.jsx",
+          "hash": "14866743445471991824"
+        },
+        {
+          "file": "src/pages/admin/page/AddProduct.jsx",
+          "hash": "46615223704669003"
+        },
+        {
+          "file": "src/pages/admin/page/UpdateProduct.jsx",
+          "hash": "7271685885598794766"
+        },
+        {
+          "file": "src/pages/allproducts/AllProducts.jsx",
+          "hash": "13933725816548232053"
+        },
+        {
+          "file": "src/pages/cart/Cart.jsx",
+          "hash": "3665664579623820036"
+        },
+        {
+          "file": "src/pages/home/Home.jsx",
+          "hash": "5364901689298826024"
+        },
+        {
+          "file": "src/pages/nopage/NoPage.jsx",
+          "hash": "16805423453729600147"
+        },
+        {
+          "file": "src/pages/productInfo/ProductInfo.jsx",
+          "hash": "12252780948936964354"
+        },
+        {
+          "file": "src/pages/registration/Login.jsx",
+          "hash": "7613535931759390202"
+        },
+        {
+          "file": "src/pages/registration/Signup.jsx",
+          "hash": "13559286693996037257"
+        },
+        {
+          "file": "src/redux/cartSlice.jsx",
+          "hash": "4645040981301870568"
+        },
+        {
+          "file": "src/redux/store.jsx",
+          "hash": "14151589923716338913"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "14782148506420561591"
+        },
+        {
+          "file": "vite.config.js",
+          "hash": "7008402861428644331"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f82522c1",
+          "hash": "17603604742930938088"
+        },
+        {
+          "file": ".nx/cache/file-map.json~05dfb632",
+          "hash": "15485795316345969585"
+        }
+      ]
+    }
+  }
+}

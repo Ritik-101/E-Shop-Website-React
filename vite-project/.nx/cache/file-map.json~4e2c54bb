@@ -1,0 +1,1006 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.2",
+  "deps": {
+    "@headlessui/react": "^1.7.17",
+    "@reduxjs/toolkit": "^1.9.7",
+    "firebase": "^10.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0",
+    "react-toastify": "^9.1.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "nx": "17.0.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "vite-project": [
+        {
+          "file": ".eslintrc.cjs",
+          "hash": "2882042679431938213"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/index.js",
+          "hash": "11105368040345262562"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/daemon/process-run-end.js",
+          "hash": "17993887837223109277"
+        },
+        {
+          "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/heartbeat/heartbeat-process.js",
+          "hash": "8101618490335397045"
+        },
+        {
+          "file": ".nx/cache/cloud/verify.lock",
+          "hash": "230559639737340897"
+        },
+        {
+          "file": ".nx/cache/d/daemon.log",
+          "hash": "11052206574805437059"
+        },
+        {
+          "file": ".nx/cache/d/server-process.json",
+          "hash": "9183712730707476757"
+        },
+        {
+          "file": ".nx/cache/file-map.json",
+          "hash": "2859842438930916674"
+        },
+        {
+          "file": ".nx/cache/file-map.json~006ef6e5",
+          "hash": "3391672888442694681"
+        },
+        {
+          "file": ".nx/cache/file-map.json~017847b6",
+          "hash": "2061021377426802174"
+        },
+        {
+          "file": ".nx/cache/file-map.json~0257a5fe",
+          "hash": "12300803772690325651"
+        },
+        {
+          "file": ".nx/cache/file-map.json~05dfb632",
+          "hash": "15485795316345969585"
+        },
+        {
+          "file": ".nx/cache/file-map.json~068fc010",
+          "hash": "17588883115715766114"
+        },
+        {
+          "file": ".nx/cache/file-map.json~06c920f3",
+          "hash": "16260329521513360904"
+        },
+        {
+          "file": ".nx/cache/file-map.json~07b5bd9c",
+          "hash": "9094239206649841088"
+        },
+        {
+          "file": ".nx/cache/file-map.json~07e728d3",
+          "hash": "1643241412117247820"
+        },
+        {
+          "file": ".nx/cache/file-map.json~088273d2",
+          "hash": "5401007995408493471"
+        },
+        {
+          "file": ".nx/cache/file-map.json~08a86bb5",
+          "hash": "5584184427838591747"
+        },
+        {
+          "file": ".nx/cache/file-map.json~108f293e",
+          "hash": "12580060506008414699"
+        },
+        {
+          "file": ".nx/cache/file-map.json~10b9b075",
+          "hash": "10535220153044993513"
+        },
+        {
+          "file": ".nx/cache/file-map.json~142bbb0f",
+          "hash": "18334118746976439746"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1459af52",
+          "hash": "15686247737997331265"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1802092a",
+          "hash": "1306137315360449608"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1b1aadac",
+          "hash": "10406823226727357553"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1bf6b90a",
+          "hash": "2779375681182070529"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1d3f2924",
+          "hash": "10502006361721526773"
+        },
+        {
+          "file": ".nx/cache/file-map.json~20cea254",
+          "hash": "4568620225957671573"
+        },
+        {
+          "file": ".nx/cache/file-map.json~24b0e532",
+          "hash": "15466775305905255487"
+        },
+        {
+          "file": ".nx/cache/file-map.json~2527144d",
+          "hash": "9019202493870947411"
+        },
+        {
+          "file": ".nx/cache/file-map.json~263cc602",
+          "hash": "16218981730059499894"
+        },
+        {
+          "file": ".nx/cache/file-map.json~28d7fd20",
+          "hash": "5328003160402849410"
+        },
+        {
+          "file": ".nx/cache/file-map.json~2ab1871c",
+          "hash": "7576813063659616648"
+        },
+        {
+          "file": ".nx/cache/file-map.json~2c727059",
+          "hash": "11156681915911879616"
+        },
+        {
+          "file": ".nx/cache/file-map.json~2efd948d",
+          "hash": "9090100827702095927"
+        },
+        {
+          "file": ".nx/cache/file-map.json~30ec3a54",
+          "hash": "13725222157384321052"
+        },
+        {
+          "file": ".nx/cache/file-map.json~3130f983",
+          "hash": "9997921321590381733"
+        },
+        {
+          "file": ".nx/cache/file-map.json~324bb583",
+          "hash": "6229859805267732637"
+        },
+        {
+          "file": ".nx/cache/file-map.json~33140867",
+          "hash": "1668246425110888525"
+        },
+        {
+          "file": ".nx/cache/file-map.json~3500bb42",
+          "hash": "17399322464709789156"
+        },
+        {
+          "file": ".nx/cache/file-map.json~35c9a337",
+          "hash": "17897008838574052305"
+        },
+        {
+          "file": ".nx/cache/file-map.json~36c08c85",
+          "hash": "597603286590151884"
+        },
+        {
+          "file": ".nx/cache/file-map.json~37e8dbd1",
+          "hash": "10238123325894352092"
+        },
+        {
+          "file": ".nx/cache/file-map.json~386dff9f",
+          "hash": "17857991649293478915"
+        },
+        {
+          "file": ".nx/cache/file-map.json~3a3a26da",
+          "hash": "14060840761592597705"
+        },
+        {
+          "file": ".nx/cache/file-map.json~3bb9f600",
+          "hash": "6510954365059193177"
+        },
+        {
+          "file": ".nx/cache/file-map.json~417951f7",
+          "hash": "7764404113306362102"
+        },
+        {
+          "file": ".nx/cache/file-map.json~42192020",
+          "hash": "12727722139382530960"
+        },
+        {
+          "file": ".nx/cache/file-map.json~4269e50e",
+          "hash": "17496563902100369517"
+        },
+        {
+          "file": ".nx/cache/file-map.json~4385b0b0",
+          "hash": "11888518573272254273"
+        },
+        {
+          "file": ".nx/cache/file-map.json~43ab871f",
+          "hash": "14342725845697673253"
+        },
+        {
+          "file": ".nx/cache/file-map.json~477e0da1",
+          "hash": "18237311579335851735"
+        },
+        {
+          "file": ".nx/cache/file-map.json~4855876a",
+          "hash": "7870225550915751606"
+        },
+        {
+          "file": ".nx/cache/file-map.json~48bb1cdd",
+          "hash": "219538818593077430"
+        },
+        {
+          "file": ".nx/cache/file-map.json~49bb0988",
+          "hash": "8461744681127989894"
+        },
+        {
+          "file": ".nx/cache/file-map.json~49dac639",
+          "hash": "7810720648713486775"
+        },
+        {
+          "file": ".nx/cache/file-map.json~4cbca692",
+          "hash": "2007297001330080446"
+        },
+        {
+          "file": ".nx/cache/file-map.json~53c0e2c6",
+          "hash": "17396136316554265040"
+        },
+        {
+          "file": ".nx/cache/file-map.json~54b2cd2b",
+          "hash": "13298559772787656087"
+        },
+        {
+          "file": ".nx/cache/file-map.json~54c0ae97",
+          "hash": "5826869704807788242"
+        },
+        {
+          "file": ".nx/cache/file-map.json~56683bfc",
+          "hash": "7830056475167671758"
+        },
+        {
+          "file": ".nx/cache/file-map.json~57521e51",
+          "hash": "3911399079759681252"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5791ded8",
+          "hash": "13008465304614249828"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5bbf82d9",
+          "hash": "5838939768837574820"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5d0543a9",
+          "hash": "6729841306207998971"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5d25da2e",
+          "hash": "8472791759306991481"
+        },
+        {
+          "file": ".nx/cache/file-map.json~5d585bb3",
+          "hash": "17483465626919140135"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6105f521",
+          "hash": "307067122320732787"
+        },
+        {
+          "file": ".nx/cache/file-map.json~61ebc2a2",
+          "hash": "13992286465430679325"
+        },
+        {
+          "file": ".nx/cache/file-map.json~630178f7",
+          "hash": "7658245471163692372"
+        },
+        {
+          "file": ".nx/cache/file-map.json~63755b28",
+          "hash": "7216182846695859948"
+        },
+        {
+          "file": ".nx/cache/file-map.json~651af6ec",
+          "hash": "17761540681494492580"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6605accd",
+          "hash": "17469750925156375059"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6931a80b",
+          "hash": "1469953071495761109"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6d569032",
+          "hash": "15284082173415825580"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6fe88ca2",
+          "hash": "18236502598092957230"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6ff7017d",
+          "hash": "3385628234120482432"
+        },
+        {
+          "file": ".nx/cache/file-map.json~73536f14",
+          "hash": "7333764445947572639"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7446e349",
+          "hash": "3518252996593080031"
+        },
+        {
+          "file": ".nx/cache/file-map.json~766ea207",
+          "hash": "2459743661643286439"
+        },
+        {
+          "file": ".nx/cache/file-map.json~772ee389",
+          "hash": "1106013876922368513"
+        },
+        {
+          "file": ".nx/cache/file-map.json~79debac5",
+          "hash": "3911399079759681252"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7b236272",
+          "hash": "17112437889729372158"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7b65f7ea",
+          "hash": "9122809822093984737"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7bfcdba7",
+          "hash": "7761413400339338378"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7da5bfff",
+          "hash": "15594472980867870861"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7faaa9d2",
+          "hash": "4200814633964215262"
+        },
+        {
+          "file": ".nx/cache/file-map.json~80a6d19c",
+          "hash": "5689733475766524489"
+        },
+        {
+          "file": ".nx/cache/file-map.json~85b99f16",
+          "hash": "12984755358312101838"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8648ad25",
+          "hash": "7185275109505067387"
+        },
+        {
+          "file": ".nx/cache/file-map.json~86be170a",
+          "hash": "12639681631367248303"
+        },
+        {
+          "file": ".nx/cache/file-map.json~87571e5e",
+          "hash": "6167353512497275129"
+        },
+        {
+          "file": ".nx/cache/file-map.json~87e0a581",
+          "hash": "10390362771622530874"
+        },
+        {
+          "file": ".nx/cache/file-map.json~883f7226",
+          "hash": "15674451699361451802"
+        },
+        {
+          "file": ".nx/cache/file-map.json~88f1dcaa",
+          "hash": "17549785040587065477"
+        },
+        {
+          "file": ".nx/cache/file-map.json~891b89f0",
+          "hash": "14757176474886537377"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8965c03f",
+          "hash": "13838947181694593609"
+        },
+        {
+          "file": ".nx/cache/file-map.json~898c9027",
+          "hash": "7820875967721604410"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8a8989f6",
+          "hash": "12179423164808344031"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8d8953ff",
+          "hash": "13206357381009969143"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8e98af45",
+          "hash": "10972996527927076036"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9023f6f4",
+          "hash": "610731742340880426"
+        },
+        {
+          "file": ".nx/cache/file-map.json~904d3b30",
+          "hash": "11865354409562184176"
+        },
+        {
+          "file": ".nx/cache/file-map.json~91c3e6ca",
+          "hash": "15561231799247957370"
+        },
+        {
+          "file": ".nx/cache/file-map.json~935e7e5f",
+          "hash": "18150760814383451915"
+        },
+        {
+          "file": ".nx/cache/file-map.json~95961411",
+          "hash": "3754391275565207403"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9854bf76",
+          "hash": "13478607946997607841"
+        },
+        {
+          "file": ".nx/cache/file-map.json~99f32593",
+          "hash": "1946291092689859413"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9b133b1c",
+          "hash": "6503862213424264076"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9bdfbcb7",
+          "hash": "1034518632016474087"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9c0a387d",
+          "hash": "11349415232907651052"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9ebaac68",
+          "hash": "7653784026122460153"
+        },
+        {
+          "file": ".nx/cache/file-map.json~9f6c84f9",
+          "hash": "12898138718438521728"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a003dc24",
+          "hash": "9992677491531932589"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a098a1ca",
+          "hash": "8146963256587101928"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a0bf4209",
+          "hash": "4242312414381978192"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a6dca86c",
+          "hash": "17891551376438988959"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a7cc58c0",
+          "hash": "14716317043325202940"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a9d04df4",
+          "hash": "18072197303526656815"
+        },
+        {
+          "file": ".nx/cache/file-map.json~aa16d774",
+          "hash": "195284878008399780"
+        },
+        {
+          "file": ".nx/cache/file-map.json~ad6821eb",
+          "hash": "15547222398669536749"
+        },
+        {
+          "file": ".nx/cache/file-map.json~adbce03c",
+          "hash": "8176629451914797174"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b007aa5d",
+          "hash": "6652455763269851588"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b0dc599c",
+          "hash": "3450980413338873381"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b4716f25",
+          "hash": "13722666598030345902"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b5200860",
+          "hash": "13894616573819478121"
+        },
+        {
+          "file": ".nx/cache/file-map.json~b532afc9",
+          "hash": "2957847003945696218"
+        },
+        {
+          "file": ".nx/cache/file-map.json~bdd274a3",
+          "hash": "3065949897348491434"
+        },
+        {
+          "file": ".nx/cache/file-map.json~bf123617",
+          "hash": "16281747154356404384"
+        },
+        {
+          "file": ".nx/cache/file-map.json~bf79f201",
+          "hash": "9008207204813361913"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c5d0818f",
+          "hash": "14420013301283203598"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c5f74d50",
+          "hash": "7352262670550208116"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c75d3cd4",
+          "hash": "15812523212965835511"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c82ad518",
+          "hash": "8834462865305843048"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c8aae5ed",
+          "hash": "7135671535414156579"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c8f43979",
+          "hash": "4769720136192331102"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c992673b",
+          "hash": "5868664993260658794"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c9c1fa4c",
+          "hash": "12912360793232243116"
+        },
+        {
+          "file": ".nx/cache/file-map.json~ce2dd931",
+          "hash": "12044889607830672213"
+        },
+        {
+          "file": ".nx/cache/file-map.json~ce84ac09",
+          "hash": "9682374424501891764"
+        },
+        {
+          "file": ".nx/cache/file-map.json~cf11a248",
+          "hash": "17470123325799907937"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d30cdb57",
+          "hash": "4067791912716410572"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d3d9d5b5",
+          "hash": "1713001704753331344"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d3e2edad",
+          "hash": "11389309827715680867"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d4010a78",
+          "hash": "4434003913979896020"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d92c29d5",
+          "hash": "7871235083795709079"
+        },
+        {
+          "file": ".nx/cache/file-map.json~db0ebf66",
+          "hash": "1664704557553674697"
+        },
+        {
+          "file": ".nx/cache/file-map.json~dcce591e",
+          "hash": "11166114678887273130"
+        },
+        {
+          "file": ".nx/cache/file-map.json~dea5418f",
+          "hash": "8875280195157915811"
+        },
+        {
+          "file": ".nx/cache/file-map.json~df26af29",
+          "hash": "11349279904694731429"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e2fd5210",
+          "hash": "3890252247235278502"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e3154acc",
+          "hash": "726606558088331171"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e33b0a63",
+          "hash": "15127186467646512468"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e8b4e98c",
+          "hash": "7371277705606162868"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e8e74e9d",
+          "hash": "6255794241916042677"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e9097be1",
+          "hash": "16922781531327310367"
+        },
+        {
+          "file": ".nx/cache/file-map.json~ea6dc93c",
+          "hash": "1336284183016650754"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f0d3efc7",
+          "hash": "2677294970386327844"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f2219b07",
+          "hash": "18258389523045433393"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f39aad8a",
+          "hash": "3861386978984852024"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f681a7cb",
+          "hash": "10306024552549233373"
+        },
+        {
+          "file": ".nx/cache/file-map.json~f82522c1",
+          "hash": "17603604742930938088"
+        },
+        {
+          "file": ".nx/cache/file-map.json~fc0daf0e",
+          "hash": "8889379996361264133"
+        },
+        {
+          "file": ".nx/cache/lockfile.hash",
+          "hash": "5829733139618990546"
+        },
+        {
+          "file": ".nx/cache/parsed-lock-file.json",
+          "hash": "9174155026949406493"
+        },
+        {
+          "file": ".nx/cache/project-graph.json",
+          "hash": "17097144168238263691"
+        },
+        {
+          "file": ".nx/cache/project-graph.json~17b9330d",
+          "hash": "11869140382491882332"
+        },
+        {
+          "file": ".nx/cache/project-graph.json~e2ed62a6",
+          "hash": "12976474203053362810"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "10194703592859770559"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/2710705713934905325",
+          "hash": "17054359834784271210"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/4426091279382128579",
+          "hash": "3997956163470687028"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/7592041082728610040",
+          "hash": "13637957081625194507"
+        },
+        {
+          "file": "README.md",
+          "hash": "17496383698429813037"
+        },
+        {
+          "file": "index.html",
+          "hash": "7575831410758623410"
+        },
+        {
+          "file": "nx.json",
+          "hash": "6852749301580033737"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2554749836819988416"
+        },
+        {
+          "file": "package.json",
+          "hash": "14910517467366097594",
+          "deps": [
+            "npm:@headlessui/react",
+            "npm:@reduxjs/toolkit",
+            "npm:firebase",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:react-redux",
+            "npm:react-router-dom",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:nx",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "1121830044826443979"
+        },
+        {
+          "file": "public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "src/App.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/App.jsx",
+          "hash": "7469171939962855113"
+        },
+        {
+          "file": "src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "src/components/filter/Filter.jsx",
+          "hash": "151421141942208400"
+        },
+        {
+          "file": "src/components/footer/Footer.jsx",
+          "hash": "12938759712949282494"
+        },
+        {
+          "file": "src/components/herosection/HeroSection.jsx",
+          "hash": "6374082375000766595"
+        },
+        {
+          "file": "src/components/layout/Layout.jsx",
+          "hash": "11354383473371705280"
+        },
+        {
+          "file": "src/components/loader/Loader.jsx",
+          "hash": "9456926757640924371"
+        },
+        {
+          "file": "src/components/modal/Modal.jsx",
+          "hash": "392368472148790618"
+        },
+        {
+          "file": "src/components/navbar/Navbar.jsx",
+          "hash": "8300412688353172497"
+        },
+        {
+          "file": "src/components/productCard/ProductCard.jsx",
+          "hash": "6184009195362147226"
+        },
+        {
+          "file": "src/components/testimonial/Testimonial.jsx",
+          "hash": "14941726966637722431"
+        },
+        {
+          "file": "src/components/track/Track.jsx",
+          "hash": "13598906113836033466"
+        },
+        {
+          "file": "src/context/data/myContext.jsx",
+          "hash": "14130118977531945153"
+        },
+        {
+          "file": "src/context/data/myState.jsx",
+          "hash": "9412546530330189710"
+        },
+        {
+          "file": "src/firebase/FirebaseConfig.jsx",
+          "hash": "11500297490039219330"
+        },
+        {
+          "file": "src/index.css",
+          "hash": "2172668849966456987"
+        },
+        {
+          "file": "src/main.jsx",
+          "hash": "7875787779846712239"
+        },
+        {
+          "file": "src/pages/Order/Order.jsx",
+          "hash": "17492829697276988605"
+        },
+        {
+          "file": "src/pages/admin/dashboard/Dashboard.jsx",
+          "hash": "7570724345840005144"
+        },
+        {
+          "file": "src/pages/admin/dashboard/DashboardTab.jsx",
+          "hash": "14866743445471991824"
+        },
+        {
+          "file": "src/pages/admin/page/AddProduct.jsx",
+          "hash": "46615223704669003"
+        },
+        {
+          "file": "src/pages/admin/page/UpdateProduct.jsx",
+          "hash": "7271685885598794766"
+        },
+        {
+          "file": "src/pages/allproducts/AllProducts.jsx",
+          "hash": "13933725816548232053"
+        },
+        {
+          "file": "src/pages/cart/Cart.jsx",
+          "hash": "3665664579623820036"
+        },
+        {
+          "file": "src/pages/home/Home.jsx",
+          "hash": "4379620181237903811"
+        },
+        {
+          "file": "src/pages/nopage/NoPage.jsx",
+          "hash": "16805423453729600147"
+        },
+        {
+          "file": "src/pages/productInfo/ProductInfo.jsx",
+          "hash": "12252780948936964354"
+        },
+        {
+          "file": "src/pages/registration/Login.jsx",
+          "hash": "8473819066088825303"
+        },
+        {
+          "file": "src/pages/registration/Signup.jsx",
+          "hash": "13559286693996037257"
+        },
+        {
+          "file": "src/redux/cartSlice.jsx",
+          "hash": "4645040981301870568"
+        },
+        {
+          "file": "src/redux/store.jsx",
+          "hash": "14151589923716338913"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "14782148506420561591"
+        },
+        {
+          "file": "vite.config.js",
+          "hash": "7008402861428644331"
+        },
+        {
+          "file": ".nx/cache/file-map.json~26ecb20d",
+          "hash": "1547429951771111975"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d9616332",
+          "hash": "468529331082333353"
+        },
+        {
+          "file": ".nx/cache/file-map.json~ab5fc09a",
+          "hash": "16540117748287214050"
+        },
+        {
+          "file": ".nx/cache/file-map.json~19aed40f",
+          "hash": "7207910432055092527"
+        },
+        {
+          "file": ".nx/cache/file-map.json~3689af2f",
+          "hash": "14168661478328479116"
+        },
+        {
+          "file": ".nx/cache/file-map.json~0f88b32d",
+          "hash": "14021891582128310405"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d10318f7",
+          "hash": "9881746966425058946"
+        },
+        {
+          "file": ".nx/cache/file-map.json~50031c0f",
+          "hash": "18111874091250294039"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1d29e99e",
+          "hash": "11063476050585500576"
+        },
+        {
+          "file": ".nx/cache/file-map.json~26709a96",
+          "hash": "14328004434256338624"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a5d2f944",
+          "hash": "7223382985439213200"
+        },
+        {
+          "file": ".nx/cache/file-map.json~7eee9cb4",
+          "hash": "1420143593868257101"
+        },
+        {
+          "file": ".nx/cache/file-map.json~1f23c1c1",
+          "hash": "18256323922088781039"
+        },
+        {
+          "file": ".nx/cache/file-map.json~e3244825",
+          "hash": "12829380777669363116"
+        },
+        {
+          "file": ".nx/cache/file-map.json~0a17d34b",
+          "hash": "9576548279345114389"
+        },
+        {
+          "file": ".nx/cache/file-map.json~0331bc68",
+          "hash": "12501523290891593078"
+        },
+        {
+          "file": ".nx/cache/file-map.json~8da52de4",
+          "hash": "14346258521500695663"
+        },
+        {
+          "file": ".nx/cache/file-map.json~faf4cfb7",
+          "hash": "17555866516013988849"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d1e39ee1",
+          "hash": "4244745908812242424"
+        },
+        {
+          "file": ".nx/cache/file-map.json~c7f4475a",
+          "hash": "13142896360090436930"
+        },
+        {
+          "file": ".nx/cache/file-map.json~d1c656b9",
+          "hash": "6325542322816372930"
+        },
+        {
+          "file": ".nx/cache/file-map.json~a4c88eeb",
+          "hash": "8436970061376381081"
+        },
+        {
+          "file": ".nx/cache/file-map.json~6910cf28",
+          "hash": "18108772258749944290"
+        },
+        {
+          "file": ".nx/cache/file-map.json~fbe61728",
+          "hash": "4821248004082368625"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+
+> vite-project@0.0.0 dev
+> nx exec -- vite
+
+
+  [32m[1mVITE[22m v4.4.11[39m  [2mready in [0m[1m348[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh[22m[2m to show help[22m
+X [ERROR] Failed to resolve entry for package "react-router". The package may have incorrect main/module/exports specified in its package.json. [plugin vite:dep-pre-bundle]
+
+    node_modules/react-router-dom/dist/index.js:12:307:
+      12 │ ...Matches, useNavigation, unstable_useBlocker } from 'react-router';
+         ╵                                                       ~~~~~~~~~~~~~~
+
+C:\Users\ritik\Desktop\E-commerce Website\vite-project\node_modules\esbuild\lib\main.js:1649
+  let error = new Error(`${text}${summary}`);
+              ^
+
+Error: Build failed with 1 error:
+node_modules/react-router-dom/dist/index.js:12:307: ERROR: [plugin: vite:dep-pre-bundle] Failed to resolve entry for package "react-router". The package may have incorrect main/module/exports specified in its package.json.
+    at failureErrorWithLog [90m(C:\Users\ritik\Desktop\E-commerce Website\vite-project\[39mnode_modules\[4mesbuild[24m\lib\main.js:1649:15[90m)[39m
+    at [90mC:\Users\ritik\Desktop\E-commerce Website\vite-project\[39mnode_modules\[4mesbuild[24m\lib\main.js:1058:25
+    at [90mC:\Users\ritik\Desktop\E-commerce Website\vite-project\[39mnode_modules\[4mesbuild[24m\lib\main.js:1525:9
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m {
+  errors: [
+    {
+      detail: Error: Failed to resolve entry for package "react-router". The package may have incorrect main/module/exports specified in its package.json.
+          at packageEntryFailure [90m(file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:28720:11[90m)[39m
+          at resolvePackageEntry [90m(file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:28717:5[90m)[39m
+          at tryNodeResolve [90m(file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:28448:20[90m)[39m
+          at Context.resolveId [90m(file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:28207:28[90m)[39m
+          at Object.resolveId [90m(file:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:44269:64[90m)[39m
+      [90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+          at async [90mfile:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:65909:21
+          at async [90mfile:///C:/Users/ritik/Desktop/E-commerce%20Website/vite-project/[39mnode_modules/[4mvite[24m/dist/node/chunks/dep-2b82a1ce.js:39971:34
+          at async requestCallbacks.on-resolve [90m(C:\Users\ritik\Desktop\E-commerce Website\vite-project\[39mnode_modules\[4mesbuild[24m\lib\main.js:1373:22[90m)[39m
+          at async handleRequest [90m(C:\Users\ritik\Desktop\E-commerce Website\vite-project\[39mnode_modules\[4mesbuild[24m\lib\main.js:729:13[90m)[39m,
+      id: [32m''[39m,
+      location: {
+        column: [33m307[39m,
+        file: [32m'node_modules/react-router-dom/dist/index.js'[39m,
+        length: [33m14[39m,
+        line: [33m12[39m,
+        lineText: [32m"import { UNSAFE_mapRouteProperties, UNSAFE_DataRouterContext, UNSAFE_DataRouterStateContext, Router, UNSAFE_useRoutesImpl, UNSAFE_NavigationContext, useHref, useResolvedPath, useLocation, useNavigate, createPath, UNSAFE_useRouteId, UNSAFE_RouteContext, useMatches, useNavigation, unstable_useBlocker } from 'react-router';"[39m,
+        namespace: [32m''[39m,
+        suggestion: [32m''[39m
+      },
+      notes: [],
+      pluginName: [32m'vite:dep-pre-bundle'[39m,
+      text: [32m'Failed to resolve entry for package "react-router". The package may have incorrect main/module/exports specified in its package.json.'[39m
+    }
+  ],
+  warnings: []
+}
+
+Node.js v18.18.0
